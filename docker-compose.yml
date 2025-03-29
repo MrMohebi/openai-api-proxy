@@ -1,0 +1,6 @@
+services:
+  app:
+    image: mmmohebi/openai-api-proxy:latest
+    container_name: openai-api-proxy
+    ports:
+      - "8005:8005"
